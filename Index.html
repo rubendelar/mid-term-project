@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="container navbar">
         <a href="#" class="nav-logo"></a>
 
         <ul class="nav-menu">
@@ -24,7 +24,9 @@
           </li>
         </ul>
         <div class="menu-button">
-          <a href="#" class="button-primary">Contact us</a>
+          <a href="./Contact.html" class="button-primary w-button"
+            >Contact us</a
+          >
         </div>
         <div class="hamburger">
           <span class="bar"></span>
@@ -70,7 +72,7 @@
     </div>
 
     <div class="section">
-      <div class="container-logos">
+      <div class="container logos">
         <div class="grid-logos">
           <div class="client-logo">
             <img
@@ -120,10 +122,13 @@
                 <div class="project-content">
                   <div class="project-text">
                     <div class="project-title">Simplify</div>
-                    <div class="project-title project description">
+                    <div class="project-title project-description">
                       Ui Design & App Development
                     </div>
-                    <a href="#" target="_blank" class="project-link"
+                    <a
+                      href="./projects.html"
+                      target="_blank"
+                      class="project-link"
                       >Learn More</a
                     >
                   </div>
@@ -142,10 +147,13 @@
                 <div class="project-content">
                   <div class="project-text">
                     <div class="project-title">Dashcoin</div>
-                    <div class="project-title project description">
+                    <div class="project-title project-description">
                       Web Development
                     </div>
-                    <a href="#" target="_blank" class="project-link"
+                    <a
+                      href="./projects.html"
+                      target="_blank"
+                      class="project-link"
                       >Learn More</a
                     >
                   </div>
@@ -164,10 +172,13 @@
                 <div class="project-content">
                   <div class="project-text">
                     <div class="project-title">Vectorify</div>
-                    <div class="project-title project description">
+                    <div class="project-title project-description">
                       User Experience Design
                     </div>
-                    <a href="#" target="_blank" class="project-link"
+                    <a
+                      href="./projects.html"
+                      target="_blank"
+                      class="project-link"
                       >Learn More</a
                     >
                   </div>
@@ -207,7 +218,7 @@
             <div class="service-content">
               <div class="service-text">
                 <div class="project-title">User Interface Design</div>
-                <div class="project-description">
+                <div class="project-title project-description">
                   Circle provides you with a stunning user interface design that
                   is accessible to everyone.
                 </div>
@@ -220,7 +231,7 @@
             <div class="service-content">
               <div class="service-text">
                 <div class="project-title">User Experince Design</div>
-                <div class="project-description">
+                <div class="project-title project-description">
                   Circle always focuses on delivering the best user experience
                   to your customers.
                 </div>
@@ -233,7 +244,7 @@
             <div class="service-content">
               <div class="service-text">
                 <div class="project-title">Application Development</div>
-                <div class="project-description">
+                <div class="project-title project-description">
                   We develop hight-quality mobile and web applications using the
                   latest technology stack.
                 </div>
@@ -253,16 +264,54 @@
             id="email-form"
             name="email-form"
             data-name="Email Form"
-            method="get"
             class="cta-form"
             aria-label="Email Form"
-          ></form>
+          >
+            <div class="cta-textfield-wrapper">
+              <div class="textfield-icon"></div>
+              <input
+                type="email"
+                class="text-field w-input"
+                maxlength="256"
+                name="email-2"
+                data-name="Email 2"
+                placeholder="Enter your email"
+                id="email-2"
+                required=""
+              />
+            </div>
+            <input
+              type="submit"
+              value="Suscribe"
+              data-wait="Please wait..."
+              class="button primary-button cta-button w-button"
+            />
+          </form>
+
+          <!-- FORMULARIO INACABADO -->
+          <!-- <div
+            class="w-form-done"
+            tabindex="-1"
+            role="region"
+            aria-label="Email Form success"
+          >
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+
+          <div
+            class="w-form-fail"
+            tabindex="-1"
+            role="region"
+            aria-label="Email Form failure"
+          >
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div> -->
           <!-- FORMULARIO INACABADO -->
         </div>
       </div>
     </div>
 
-    <footer>
+    <footer class="section footer">
       <div class="container footer">
         <div class="footer-content">
           <div class="footer-content-logo"></div>

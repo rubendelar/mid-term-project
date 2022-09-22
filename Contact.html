@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Contact.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container navbar">
+        <a href="#" class="nav-logo"></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="./Index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Project</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+          </li>
+        </ul>
+        <div class="menu-button">
+          <a href="#" class="button-primary w-button">Contact us</a>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="section contact">
+      <div class="container contact-container">
+        <h1 class="contact-heading">Contact us</h1>
+        <div class="contact-form w-form">
+          <form id="email-form" name="email-form" class="contact-form-wrapper">
+            <div id="name" class="contact-text-wrapper">
+              <label for="name" class="contact-title">Full Name *</label
+              ><input
+                type="text"
+                class="contact-text-field w-input"
+                maxlength="256"
+                name="name"
+                data-name="Name"
+                placeholder="Enter your full name"
+                id="name"
+              />
+            </div>
+            <div id="email" class="contact-text-wrapper">
+              <label for="name-2" class="contact-title">Email</label
+              ><input
+                type="email"
+                class="contact-text-field w-input"
+                maxlength="256"
+                name="name-2"
+                data-name="Name 2"
+                placeholder="Enter your email"
+                id="name-2"
+              />
+            </div>
+            <div id="phone" class="contact-text-wrapper">
+              <label for="name-3" class="contact-title">Phone</label
+              ><input
+                type="tel"
+                class="contact-text-field w-input"
+                maxlength="256"
+                name="name-3"
+                data-name="Name 3"
+                placeholder="Enter your phone"
+                id="name-3"
+              />
+            </div>
+            <div id="message" class="contact-text-wrapper">
+              <label for="field" class="contact-title">Message *</label
+              ><textarea
+                placeholder="Write your message here..."
+                maxlength="5000"
+                id="field"
+                name="field"
+                required=""
+                data-name="field"
+                class="contact-text-field textarea w-input"
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              data-wait="Please wait..."
+              id="submit"
+              class="button primary-button contact w-button"
+            />
+          </form>
+          <div class="w-form-done"></div>
+          
+          <div class="w-form-fail"></div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="section footer">
+      <div class="container footer">
+        <div class="footer-content">
+          <div class="footer-content-logo"></div>
+          <div class="footer-content-address">
+            2972 Westheimer Rd. Santa Ana, Illinois 85486
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#" class="footer-link">Team</a>
+          <a href="#" class="footer-link">Services</a>
+          <a href="#" class="footer-link">About Us</a>
+          <a href="#" class="footer-link">Press</a>
+          <a href="#" class="footer-link">Projects</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./contact.js"></script>
+  </body>
+</html>
