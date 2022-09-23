@@ -138,11 +138,7 @@ input {
   background-color: #c8c8c8;
 }
 
-/* .hamburger.bar.active {
-  background-color: white;
-} */
-
-/* HERO SECTION STYLING*/
+/* HERO SECTION */
 
 .section {
   margin-top: 0px;
@@ -609,15 +605,6 @@ input {
 
 /*FORM-BUTTONS*/
 
-.text-field {
-  width: 393px;
-  height: 80px;
-  margin-bottom: 0px;
-  padding-left: 70px;
-  background-color: #ecf7ff;
-  color: #292e47;
-}
-
 .w-input {
   display: block;
   width: 100%;
@@ -629,6 +616,15 @@ input {
   color: #333333;
   background-color: #ffffff;
   border: 1px solid #cccccc;
+}
+
+.text-field {
+  width: 393px;
+  height: 80px;
+  margin-bottom: 0px;
+  padding-left: 70px;
+  background-color: #ecf7ff;
+  color: #292e47;
 }
 
 .textfield-icon {
@@ -695,6 +691,7 @@ input {
 .footer-link {
   font-size: 17px;
   text-decoration: none;
+  color: #0000ee;
 }
 
 @media (max-width: 991px) {
@@ -714,9 +711,9 @@ input {
     transform: translateY(-8px) rotate(-45deg);
   }
   .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 140px;
+    position: absolute;
+    /* left: -100%; */
+    top: -100%;
     gap: 0;
     flex-direction: column;
     background-color: #c8c8c8;
@@ -729,7 +726,7 @@ input {
     font-weight: bold;
   }
   .nav-menu.active {
-    left: 0;
+    top: 70px;
     padding: 20px;
     font-size: 17px;
     align-items: flex-start;
@@ -836,6 +833,16 @@ input {
 }
 
 @media (max-width: 991px) {
+  /*NAVBAR*/
+
+  .container.navbar {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 0px;
+  }
+
+  /* PROJECTS SECTION*/
+
   .section.hero {
     padding-top: 0px;
   }
@@ -884,7 +891,7 @@ input {
     width: 270px;
   }
 
-  /*logos section*/
+  /*LOGOS SECTION*/
 
   .grid-logos {
     justify-items: center;
@@ -893,6 +900,8 @@ input {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
   }
+
+  /* PROJECTS SECTION*/
 
   .section.projects {
     margin-top: 40px;
@@ -906,8 +915,7 @@ input {
     width: 100%;
     max-width: 100%;
   }
-  /* width: 270px;
-  } */
+  /* TESTIMONIAL SECTION*/
 
   .section.testimonial {
     height: 500px;
@@ -959,8 +967,6 @@ input {
   .emoji.bo .section.footer {
     margin-top: 60px;
   }
-
-  /*FORM*/
 
   /*FOOTER*/
 

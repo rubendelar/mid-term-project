@@ -13,7 +13,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
-/*FETCH*/
+/*FECH*/
 
 const web = "https://jsonplaceholder.typicode.com/posts?_limit=3";
 
